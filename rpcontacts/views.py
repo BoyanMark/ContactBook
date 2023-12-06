@@ -37,7 +37,7 @@ class Window(QMainWindow):
         self.setupUI()
 
     def setupUI(self):
-        """Setup the main window's GUI."""
+        """Set up the main window's GUI."""
         # Create the table view widget
         self.table = QTableView()
         self.table.setModel(self.contactsModel.model)
@@ -109,7 +109,7 @@ class AddDialog(QDialog):
         self.setupUI()
 
     def setupUI(self):
-        """Setup the Add Contact dialog's GUI."""
+        """Set up the Add Contact dialog's GUI."""
         # Create line edits for data fields
         self.nameField = QLineEdit()
         self.nameField.setObjectName("Name")
